@@ -1,0 +1,8 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Referrer-Policy = "no-referrer"
+
+[build]
+  publish = "."
